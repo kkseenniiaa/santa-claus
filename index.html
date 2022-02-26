@@ -7,139 +7,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Pacifico&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Страница Деда Мороза</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Портфолио</title>
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav class="nav">
-                <a href="#main" class="nav__item">Главная</a>
-                <a href="#compliment" class="nav__item">Поздравления</a>
-                <a href="#poem" class="nav__item">Стихи Деду Морозу</a>
-                <a href="#msg" class="nav__item">Письмо Деду Морозу</a>
-            </nav>
+            <div class="container header__container">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Works</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Blog</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <section class="main section" id="main">
-            <div class="about">
-                <div class="about__avatar"></div>
-                <div class="about__info">
-                    <h1 class="about__title">Дед Мороз</h1>
-                    <p class="about__text">
-                        Недалеко от Великого Устюга находится Резиденция-Вотчина Деда Мороза. Дед Мороз
-                        приглашает в путешествие в свою сказку у резных ворот, открывающих вход во
-                        владения сказочного волшебника. За воротами - Тропа Сказок, пройдя по которой,
-                        можно попасть в терем Деда Мороза. Ждут на Вотчине разные аттракционы и
-                        развлечения круглый год. Дед Мороз со своей свитой и сказочными героями гостям
-                        всегда рад, всех встретит, добрым словом приветит, подарки вручит. Ощущение
-                        доброй сказки останется в душе навсегда и Вам захочется вернуться сюда вновь.
-                    </p>
-                </div>
-            </div>
-            <a href="a" class="buttom">Написать письмо Деду Морозу</a>
-        </section>
-        <section class="compliment section" id="compliment">
-            <div class="compliment__content">
-                <h2 class="compliment__title">С НАСТУПАЮЩИМ НОВЫМ 2022 ГОДОМ</h2>
-                <div class="compliment__text">
-                    С наступающим тебя Новым годом — 2022, годом надежд и успехов, радостных событий и ярких<br>
-                    впечатлений, годом мира и любви, пусть он будет таким — замечательным и добрым!<br>
-                    Желаю тебе в грядущем году здоровья, сил и ловкости Тигра,<br>
-                    исполнения заветных желаний, только приятных волнений, только счастливых мгновений!
-                </div>
-                <div class="compliment__img-wrap">
-                    <img src="img/tigryonok-25-0.png" alt="" class="compliment__img">
-                    <div class="compliment__img-talk">С Новым Годом!</div>
-                </div>
-            </div>
-        </section>
-        <section class="poem section" id="poem">
-            <h2 class="poem__title">Новогодние стихи</h2>
-            <ul class="poem__list">
-                <li class="poem__item">
-                    <div class="poem__img-wrap">
-                        <img src="img/pngwing.com.png" alt="Ель" class="poem__img">
-                    </div>
-                    <h3 class="poem__subtitle">На пушистой ёлке</h3>
-                    <div class="poem__text">
-                        Новогодние деньки, <br>
-                        Снег морозный, колкий. <br>
-                        Загорелись огоньки <br>
-                        На пушистой елке. <br>
-                        Шар качнулся расписной, <br>
-                        Бусы зазвенели. <br>
-                        Пахнет свежестью лесной <br>
-                        От пушистой ели.
-                    </div>
-                </li>
-                <li class="poem__item">
-                    <div class="poem__img-wrap">
-                        <img src="img/santa.png" alt="Санта" class="poem__img">
-                    </div>
-                    <h3 class="poem__subtitle">Добрый Дедушка Мороз</h3>
-                    <div class="poem__text">
-                        Добрый Дедушка Мороз <br>
-                        Бородою весь оброс. <br>
-                        Он спешит сегодня слишком<br>
-                        Вместе с внучкою к детишкам.<br>
-                        С неба падает снежок,<br>
-                        А у дедушки - мешок.<br>
-                        В нём он каждому из нас<br>
-                        По подарочку припас.
-                    </div>
-                </li>
-                <li class="poem__item">
-                    <div class="poem__img-wrap">
-                        <img src="img/9.png" alt="снеговик" class="poem__img">
-                    </div>
-                    <h3 class="poem__subtitle">Снеговик из детской сказки</h3>
-                    <div class="poem__text">
-                        Раскраснелась детвора —<br>
-                        Накатала три шара!<br>
-                        Друг на друга их сложили,<br>
-                        И ведро нагромоздили.<br>
-                        Нос — морковка, уголь — глазки,<br>
-                        Снеговик из детской сказки!<br>
-                        Руки — ветки, рот — конфета...<br>
-                        Пусть стоит теперь до лета!
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="msg section" id="msg">
-            <h2 class="msg__title">Письмо Деду Морозу</h2>
-            <form class="form">
-                <div class="form__content">
-                    <div class="form__row">
-                        <div class="form__title-input">
-                            Введите имя
+        <main class="main">
+            <section class="about">
+                <div class="container about__container">
+                    <div class="about__info">
+                        <h1 class="title about__title">
+                            Hi, I am John,<br>
+                            Creative Technologist
+                        </h1>
+                        <div class="about__text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                            nostrud amet.
                         </div>
-                        <input type="text" class="form__input">
+                        <a href="" class="button">Download Resume</a>
                     </div>
-                    <div class="form__row">
-                        <div class="form__title-input">
-                            Введите адрес
-                        </div>
-                        <input type="text" class="form__input">
-                    </div>
-                    <div class="form__row">
-                        <div class="form__title-input">
-                            Письмо Деду Морозу
-                        </div>
-                        <textarea class="form__message"></textarea>
-                    </div>
-                    <div class="form__button-wrap">
-                        <button class="form__submit" type="submit">Отправить письмо</button>
+                    <div class="about__avatar">
+                        <img src="img/фото-м.png" alt="" class="about__img">
                     </div>
                 </div>
-                <div class="form__img-wrap">
-                    <img src="img/logo-300x300.png" class="form__img" alt="">
+            </section>
+            <section class="recent-posts">
+                <div class="container">
+                    <div class="recent-posts__top">
+                        <div class="section-title recent-posts__title">
+                            Recent posts
+                        </div>
+                        <a href="#" class="recent-posts__link">View all</a>
+                    </div>
+                    <div class="recent-posts__articles">
+                        <article class="recent-posts__article">
+                            <div class="recent-posts__subtitle">
+                                Making a desing system from scratch
+                            </div>
+                            <div class="recent-posts__info">
+                                12Feb 2020 <span class="recent-posts__separator">|</span>Desing, Pattern
+                            </div>
+                            <div class="recent-posts__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </div>
+                        </article>
+                        <article class="recent-posts__article">
+                            <div class="recent-posts__subtitle">
+                                Creating pixel perfect icons in Figma
+                            </div>
+                            <div class="recent-posts__info">
+                                12Feb 2020 <span class="recent-posts__separator">|</span>Figma, Icon Design
+                            </div>
+                            <div class="recent-posts__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </div>
+                        </article>
+                    </div>
                 </div>
-            </form>
-        </section>
+            </section>
+            <section class="featured">
+                <div class="container">
+                    <div class="section-title">
+                        Featured works
+                    </div>
+                    <div class="featured__works">
+                        <article class="work">
+                            <div class="work__img-wrap">
+                                <img src="img/фото1.png" alt="" class="work__img">
+                            </div>
+                            <div class="work__info">
+                                <a href="" class="work__title">Designing Dashboards</a>
+                                <div class="work__subtitle">
+                                    <div class="work__date">2020</div>
+                                    <div class="work__category">Dashboard</div>
+                                </div>
+                                <div class="work__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </div>
+                            </div>
+                        </article>
+                        <article class="work">
+                            <div class="work__img-wrap">
+                                <img src="img/фото2.png" alt="" class="work__img">
+                            </div>
+                            <div class="work__info">
+                                <a href="" class="work__title">Vibrant Portraits of 2020</a>
+                                <div class="work__subtitle">
+                                    <div class="work__date">2018</div>
+                                    <div class="work__category">Illustration</div>
+                                </div>
+                                <div class="work__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </div>
+                            </div>
+                    </div>
+                    </article>
+                    <article class="work">
+                        <div class="work__img-wrap">
+                            <img src="img/фото3.png" alt="" class="work__img">
+                        </div>
+                        <div class="work__info">
+                            <a href="" class="work__title">36 Days of Malayalam type</a>
+                            <div class="work__subtitle">
+                                <div class="work__date">2018</div>
+                                <div class="work__category">Typography</div>
+                            </div>
+                            <div class="work__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </div>
+                        </div>
+                    </article>
+                </div>
+    </div>
+    </section>
+    </main>
     </div>
 </body>
 
